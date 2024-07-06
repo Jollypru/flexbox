@@ -1,0 +1,17 @@
+.parent{
+    padding: 25px;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between; /* x-axis borabor tar child item k kivabe space diye sajabe*/
+    height: 350px; /* nijeo height nibe ,tar child gulokeo height dibe  */
+    align-items: center; /* y-axis borabor tar child item k kivabe space diye sajabe, stretch by default thake.*/
+    flex-direction: row;
+}
+.child{
+    border: 2px solid rgb(15, 158, 160);
+    background: rgb(178, 228, 229);
+    padding: 20px;
+    font-size: 28px;
+    /* display: inline; */
+}
